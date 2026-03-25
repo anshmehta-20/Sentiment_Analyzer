@@ -122,9 +122,9 @@ Example seed words used by the scorer:
 - `Novelty`: innovative, unique, stylish, original, creative
 - `Personality`: expressive, playful, conversational, empathetic, relatable
 
-### 1. Training data
+### Data
 
-File: `data/training_data.xlsx`
+Files: `data/training_data.xlsx`, `data/testing_data.xlsx`, `data/prediction_data.xlsx`
 
 Required columns:
 
@@ -136,33 +136,7 @@ Required columns:
 - `Personality_Score`
 - `predicted_sentiments`
 
-### 2. Testing data
-
-File: `data/testing_data.xlsx`
-
-Required columns:
-
-- `Actuation_Score`
-- `Awareness_Score`
-- `Connectivity_Score`
-- `Dynamism_Score`
-- `Novelty_Score`
-- `Personality_Score`
-
-### 3. Prediction data
-
-File: `data/prediction_data.xlsx`
-
-Required columns:
-
-- `Actuation_Score`
-- `Awareness_Score`
-- `Connectivity_Score`
-- `Dynamism_Score`
-- `Novelty_Score`
-- `Personality_Score`
-
-### 4. Review matrix data
+### Review matrix data
 
 File: `data/final_data.xlsx`
 
