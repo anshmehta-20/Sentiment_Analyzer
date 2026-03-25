@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Output files (generated)
+outputs/*.xlsx
+outputs/model.pkl
+outputs/
+
+# Local datasets / spreadsheets
+data/*.csv
+data/*.xls
+data/*.xlsx
+
+# Jupyter notebooks (if any later)
+.ipynb_checkpoints/
+
+# VS Code settings (optional)
+.vscode/
